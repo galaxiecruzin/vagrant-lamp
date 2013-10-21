@@ -51,8 +51,10 @@ Installed software:
     * [Grunt](http://gruntjs.com/)
     * [Bower](http://bower.io)
     * [Yeoman](http://yeoman.io)
+* CSS
     * [LESS](http://lesscss.org)
     * [CSS Lint](http://csslint.net)
+    * [Compass] http://compass-style.org/
 
 Notes
 -----
