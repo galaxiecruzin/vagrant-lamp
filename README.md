@@ -114,3 +114,11 @@ the vagrant box generates. The Web frontend for MailCatcher is running on port
 ### Composer
 
 Composer binary is installed globally (to `/usr/local/bin`), so you can simply call `composer` from any directory.
+
+### Debugging
+
+If chef-solo reports an error while running, you may run it again from the console while inside the machine. 
+
+    ssh  vagrant@localhost:2222
+    cd /tmp/vagrant-chef-1
+    sudo chef-solo -c ./solo.rb -j ./dna.json
